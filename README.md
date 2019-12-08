@@ -3,6 +3,9 @@
 > Send your pinboard bookmarks / links to kindle
 
 
+[![builds.sr.ht status](https://builds.sr.ht/~dbalan/pinkind/freebsd.yml.svg)](https://builds.sr.ht/~dbalan/pinkind/freebsd.yml?)
+
+
 ## Workdlow
 
 As the title says the code was written to send articles to my

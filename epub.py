@@ -57,7 +57,7 @@ def get_article(url):
     title_fn = title.lower().replace(' ', '-') 
     if len(title_fn) > 20:
         title_fn = title_fn[:20]
-    
+
     c = epub.EpubHtml(title=title,
                    file_name=f'{title_fn}.xhtml',
                    lang='en')

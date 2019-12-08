@@ -6,7 +6,7 @@
 [![builds.sr.ht status](https://builds.sr.ht/~dbalan/pinkind/freebsd.yml.svg)](https://builds.sr.ht/~dbalan/pinkind/freebsd.yml?)
 
 
-## Workdlow
+## Workflow
 
 As the title says the code was written to send articles to my
 kindle. Pinkindle generates epub's but kindle can't read epub -- so

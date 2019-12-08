@@ -1,0 +1,10 @@
+image: "freebsd/12.x"
+packages:
+  - python3.7
+sources:
+  - https://github.com/dbalan/pinkind
+tasks:
+  - pinkind: |
+      pwd
+      ls
+      pip install -r requirements

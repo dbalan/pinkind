@@ -37,9 +37,11 @@ python epub.py pinboard --tag kindle <API_KEY>
 
 ## Todo
 
-Currently we use
+Article formatting is still hit or miss. Currently we use
 [newspaper3k](https://newspaper.readthedocs.io/en/latest/) to parse
-articles, I am not sure if there is a better library or API.
+articles, try using [Mercury parser](https://mercury.postlight.com/web-parser/).
 
-This code was inspired by [Kindlizer by
+## Thanks
+
+Started thinking about this after seeing [Kindlizer by
 QuietMisdreavus](https://github.com/QuietMisdreavus/kindlizer)

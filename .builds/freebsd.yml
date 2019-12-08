@@ -1,0 +1,18 @@
+image: "freebsd/12.x"
+packages:
+  - python36
+  - libxml2
+  - libxslt
+  - py36-pip
+  - py36-pillow # installs deps
+  - py36-virtualenv
+sources:
+  - https://github.com/dbalan/pinkind
+tasks:
+  - pinkind: |
+      virtualenv venv
+      source venv/bin/activate
+      cd pinkind
+      pip install -r requirements.txt
+      python3.6 epub.py links https://en.wikipedia.org/wiki/Uncanny_valley
+      ls -l output.epub

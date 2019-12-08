@@ -1,4 +1,21 @@
-# pinkind
+# Pinkind
+
+> Send your pinboard bookmarks / links to kindle
+
+
+## Workdlow
+
+As the title says the code was written to send articles to my
+kindle. Pinkindle generates epub's but kindle can't read epub -- so
+how does it work?
+
+I use following workflow to get around this.
+
+1. Use pinkindle to generate `epub`
+2. Use `ebook-convert` from [Calibre](https://calibre-ebook.com/) to convert it into `.mobi` file.
+3. Email it to kindle ebook sync service (whatever it is called)
+
+## Usage
 
 Pinkind takes web article links, downloads them and builds epub out of
 the article.
@@ -14,3 +31,5 @@ case provide API key and tag to filter out links.
 ```bash
 python epub.py pinboard --tag kindle <API_KEY>
 ```
+
+This code was inspired by [Kindlizer by QuietMisdreavus](https://github.com/QuietMisdreavus/kindlizer)

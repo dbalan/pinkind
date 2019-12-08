@@ -32,4 +32,11 @@ case provide API key and tag to filter out links.
 python epub.py pinboard --tag kindle <API_KEY>
 ```
 
-This code was inspired by [Kindlizer by QuietMisdreavus](https://github.com/QuietMisdreavus/kindlizer)
+## Todo
+
+Currently we use
+[newspaper3k](https://newspaper.readthedocs.io/en/latest/) to parse
+articles, I am not sure if there is a better library or API.
+
+This code was inspired by [Kindlizer by
+QuietMisdreavus](https://github.com/QuietMisdreavus/kindlizer)
